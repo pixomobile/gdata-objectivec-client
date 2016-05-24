@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.license  = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary  = "The Google data APIs provide a simple protocol for reading and "\
                "writing data on the web. Many Google services provide a Google data API."
-  s.homepage = 'https://github.com/PeterWong2015/gdata-objectivec-client'
+  s.homepage = 'https://github.com/pixomobile/gdata-objectivec-client'
   s.author   = { 'The Google Data APIs team' => 'https://code.google.com/p/gdata-objectivec-client' }
-  s.source   = { :git => 'https://github.com/PeterWong2015/gdata-objectivec-client', :tag => 'v1.12.0.20160321' }
+  s.source   = { :git => 'https://github.com/pixomobile/gdata-objectivec-client', :tag => 'v1.12.0.20160321' }
   s.dependency 'gtm-oauth2'
   s.requires_arc = false
   s.prefix_header_contents = '#define GDATA_REQUIRES_ARC 1'
